@@ -47,6 +47,10 @@ public class StepDefinitionimpl {
 		prodcutCatalogue=landingpage.LoginAplication(username,password);
 		driver.manage().window().maximize();
 		System.out.println(username);
+		System.out.println(password);
+		System.out.println("Vivek");
+		System.out.println("Mhatre");
+		
 	}
 	
 	@When("^I add the product (.+) to cart$")
