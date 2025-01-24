@@ -41,6 +41,7 @@ public class Checkout extends AbstractComponents {
 	{    Actions a =new Actions(driver);
 	     a.sendKeys(country,countryname).build().perform();
 	     SelectCountry.click();
+	     System.out.println("Madhukar");
 	}
 	public void SubmitOrder()
 	{

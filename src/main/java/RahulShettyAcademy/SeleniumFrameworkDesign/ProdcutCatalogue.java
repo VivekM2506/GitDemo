@@ -50,6 +50,7 @@ public class ProdcutCatalogue extends AbstractComponents{
    		prod.findElement(Addtocart).click();
    		WaitForElementsToAppear(Toast);
    		WaitForElementToDisappear(spinner);
+   		System.out.println("Mhatre");
 	}
    		 
 	
