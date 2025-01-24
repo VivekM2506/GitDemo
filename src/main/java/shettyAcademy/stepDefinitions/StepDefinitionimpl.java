@@ -46,6 +46,7 @@ public class StepDefinitionimpl {
 	{
 		prodcutCatalogue=landingpage.LoginAplication(username,password);
 		driver.manage().window().maximize();
+		System.out.println(username);
 	}
 	
 	@When("^I add the product (.+) to cart$")
@@ -54,6 +55,8 @@ public class StepDefinitionimpl {
 		    
 		    prodcutCatalogue.GetProductname(product);
 		    prodcutCatalogue.AddToCart(product);
+		    System.out.println(product);
+		   
 	}
 	
 	@When("^Checkout product (.+)$")
