@@ -59,6 +59,9 @@ public class StandAloneTest extends BaseTest{
 	    String ConfirmMessage = driver.findElement(By.cssSelector(".hero-primary")).getText();
 	     ConfirmMessage.equalsIgnoreCase("Thankyou for the order.");
 	     System.out.println(ConfirmMessage);
+	     System.out.println("Vivek");
+	     System.out.println("Madhukar");
+	     System.out.println("Mhatre");
 	    
 		}
 	    
